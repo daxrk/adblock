@@ -1,0 +1,133 @@
+#slide-box{position:relative;width:100%;height:370px}#slide-box ul{position:absolute;list-style:none}#slide-box a.det-pic-control{width:60px;height:60px;display:block;position:absolute;display:none;background:url(&quot;https://static.apkpure.com/www/static/imgs/slidebg.png&quot;) no-repeat}#slide-box #prev{background-position:left -62px;left:0px;top:145px}#slide-box #prev:hover{background-position:left -186px}#slide-box #next{background-position:left 0;right:0px;top:145px}#slide-box #next:hover{background-position:left -124px}#slide-box a.go{display:block}#slide-box .det-pic-out{overflow:hidden;overflow-x:scroll;position:relative;width:100%;height:370px}#slide-box .det-pic-out::-webkit-scrollbar-thumb:hover{background-color:#525252}#slide-box li{white-space:nowrap}#slide-box li a{text-decoration:none;white-space:nowrap;padding-right:5px}#slide-box li a img{background:#f1f1f1}
+      
+#slide-box #next {
+    background-position: left -0px;
+    right: 8px;
+    top: 235px;
+}
+#slide-box a.go {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+    transform: translate(0,-50%);
+    background-color: #171717;
+    width: 54px;
+    box-shadow: 0 2px 5px #0000005c;
+    border-radius: 10px;
+    height: 60px;
+    text-align: center;
+    line-height: 84px;
+    z-index: 99;
+    cursor: pointer;
+}
+#slide-box #next:hover {
+    background-position: left 0px;
+}
+#slide-box #prev {
+    background-position: left -62px;
+    left: 8px;
+    top: 235px;
+}
+#slide-box #prev:hover {
+    background-position: left -62px;
+}
+
+#slide-box li a {
+    text-decoration: none;
+    white-space: nowrap;
+    padding-right: 0px;
+    margin: 0;
+}
+.rand-content div {
+height: 430px;
+width: 290px;
+    background: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px;
+        margin-top: 5px;
+        margin-left: 5px;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    white-space: normal;
+    border-radius: 0px;
+    box-shadow: rgba(6, 6, 6, 0) 0px 3px 5px 0px;margin-right: 15px;
+        margin: 0;
+}
+.rand-content .img-wrap {
+    margin-left: 0px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: rgba(6, 6, 6, 0) 0px 3px 5px 0px;
+}
+
+#slide-box .det-pic-out {
+    overflow: hidden;
+        overflow-x: hidden;
+    overflow-x: scroll;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.amagnificpopup.rendered {
+    padding: 0;
+}
+.describe {
+    clear: both;
+    height: auto;
+    height: 447px;
+}
+.describe-img {
+    padding: 0px;
+    direction: ltr;
+}
+#slide-box .rand-content h2 a {
+ text-decoration: none;
+white-space: inherit;
+padding: 200px 25px 15px 25px;
+font-size: 19px;border-radius: 0px;
+}
+.describe-line {
+    font-size: 0;
+    height: 0px;
+    background: #e8e8e8;
+}
+.rand-content div:hover .img-wrap:after{opacity: 1;transform: scale(1);}
+.rand-content div:hover .img-wrap:before{display: block;opacity:1;transform: scale(1);opacity: 1;}
+      .rand-content div:hover h2 a{background: linear-gradient(to top, #000000e8, transparent);}
+      #slide-box .det-pic-out {
+    overflow: hidden;
+        overflow-x: hidden;
+    overflow-x: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+@media(max-width:1050px){
+#slide-box .det-pic-out {
+    overflow: hidden;
+        overflow-x: hidden;
+    overflow-x: scroll;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+}
+  @media(max-width:700px){
+  #slide-box #next {
+opacity: 0;
+      display: none;
+}  
+}
+  
